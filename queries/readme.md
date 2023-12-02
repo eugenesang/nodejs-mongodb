@@ -23,11 +23,15 @@
 ```js
 {
     $or: [
-        createdAt: {
-            $gte: new Date('Dec 2 2023'), $lt: new Date('Dec 3 2023')
+        {
+            createdAt: {
+                $gte: new Date('Dec 2 2023'), $lt: new Date('Dec 3 2023')
+            }
         },
-        createdAt: {
-            $gte: new Date('Nov 25 2023'), $lt: new Date('Nov 26 2023')
+        {
+            createdAt: {
+                $gte: new Date('Nov 25 2023'), $lt: new Date('Nov 26 2023')
+            }
         }
     ]
 }
