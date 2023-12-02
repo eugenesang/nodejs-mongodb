@@ -1,0 +1,7 @@
+- `$eq` equal to
+- `$lt` less than
+- `$gt` greater than
+- `$lte` less than or equal to
+- `$gte` grater than or equal to
+- `$and` and
+- `$or` or
